@@ -106,6 +106,13 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     gap: 20px;
 }
+.botao--post--generic {
+display: block;
+    margin: 0 auto;
+    padding: 1%;
+    border: #faf5b2;
+
+}
 
 .search__section {
     margin-bottom: 50px;
