@@ -107,13 +107,18 @@ body {
     gap: 20px;
 }
 .botao--post--generic {
-display: block;
-    margin: 0 auto;
-    padding: 1%;
-    border: #faf5b2;
-
+    display: flex;
+    padding: 10px;
+    background-color: #D3D3D3;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 8px;
+    justify-content: center;
 }
-
+.botao--post--generic:hover{
+background-color: rgb(255, 189, 102);
+color: rgb(160, 12, 37);
+}
 .search__section {
     margin-bottom: 50px;
 }
